@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ombre.css"/>
+
+<script type="text/javascript" language="JavaScript">
+
+function ombra(elem,txdi){
+
+	this.ec=document.getElementById(elem);
+	this.cib=txdi
+	var that=this
+	document.documentElement.addEventListener("mousemove",function(event){that.ombre(event)},false);
+}
+
+ombra.prototype.ombre = function(s){
+
+	var dde=(navigator.vendor) ? document.body : document.documentElement;
+	var setX =s.clientX + dde.scrollLeft;
+	var setY =s.clientY + dde.scrollTop;
+
+	var oml=(this.ec.offsetLeft+(parseInt(this.ec.offsetWidth)/2))-setX
+	var omt=(this.ec.offsetTop+(parseInt(this.ec.offsetHeight)/2))-setY
+
+	if(this.cib=='bloc'){
+
+		this.ec.style.WebkitBoxShadow=(oml/4+'px '+omt/4+'px 15px #232711');
+		this.ec.style.MozBoxShadow=(oml/4+'px '+omt/4+'px 15px #232711');
+		this.ec.style.boxShadow=(oml/4+'px '+omt/4+'px 15px #232711');
+	}
+	else{
+		this.ec.style.textShadow=(oml/4+'px '+omt/4+'px 10px #232711');
+	}
+}
+
+function init(){
+
+	new ombra('e1','bloc');
+	new ombra('e2','bloc');
+	new ombra('e3','bloc');
+	new ombra('e4','bloc');
+	new ombra('e5','texte');
+}
+
+window.addEventListener("load",init,false);
+
+</script>
+</head>
+<body>
+<br><br><br><br>
+<div id='e1'></div>
+<div id='e2'></div>
+<div id='e3'></div>
+<div id='e4'></div>
+<span id='e5'>Alimentation</span>
+
+</body>
+</html>

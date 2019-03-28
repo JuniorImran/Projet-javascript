@@ -1,0 +1,72 @@
+#e1{
+position:relative;
+border-style:ridge;
+border-width:3px;
+border-color:black;
+height:150px;
+width:200px;
+top:50px;
+left:400px;
+background-color:yellow;
+-moz-box-shadow: 10px 10px 15px #212121;
+-webkit-box-shadow: 10px 10px 15px #212121;
+box-shadow: 100px 100px 15px #212121;
+}
+#e2{
+position:relative;
+border-style:ridge;
+border-width:3px;
+border-color:black;
+height:100px;
+width:100px;
+top:100px;
+left:500px;
+background-color:red;
+-moz-box-shadow: 10px 10px 10px #212121;
+-webkit-box-shadow: 10px 10px 10px #212121;
+box-shadow: 100px 100px 10px #212121;
+}
+#e3{
+position:relative;
+border-style:ridge;
+border-width:2px;
+border-color:gray;
+border-radius:60px;
+height:100px;
+width:100px;
+top:-100px;
+left:800px;
+background-color:green;
+-moz-box-shadow: 10px 10px 10px #212121;
+-webkit-box-shadow: 10px 10px 10px #212121;
+box-shadow: 100px 100px 10px #212121;
+}
+#e4{
+position:relative;
+border-style:ridge;
+border-width:3px;
+border-color:black;
+height:100px;
+width:100px;
+top:-100px;
+left:300px;
+background-color:blue;
+-moz-box-shadow: 10px 10px 15px #212121;
+-webkit-box-shadow: 10px 15x 10px #212121;
+box-shadow: 100px 100px 15px #212121;
+}
+
+#e5{
+display:block;
+font-size:55px;
+color:black;
+position:absolute;
+top:100px;
+left:800px;
+text-shadow: 10px 10px 10px #212121;
+}
+
+body{
+background-color:gray;
+background:url(2015-02_Hausse_alimentaire_1536x1146.jpg);
+}

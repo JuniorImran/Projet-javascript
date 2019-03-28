@@ -1,0 +1,606 @@
+body{
+	background-color:#BDB76B ;
+}
+/*logo*/
+
+/*end logo*/
+
+/*Barre de navigation*/
+.navbar-header{
+	background-color: #2F4F4F;
+	margin-top: -100px;
+	margin-right: 300px;
+	margin-bottom: 05px;
+	margin-left: -10px;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	color: #FFFFFF;
+
+}
+.navbar-header ul{
+	margin-top: 12px;
+	width: 100%;
+	
+}
+.navbar-header ul li{
+	display: inline-block;
+	list-style: none;
+	text-align: right;
+
+}
+.navbar-header .a1{
+	font-size: 30px;
+	margin-left: 2px;
+	margin-right: 50px;
+	border-width: 2px;
+	border-style: inset;
+	border-radius: 5px;
+}
+.navbar-header .a2{
+	font-size: 22px;
+	margin-left: 300px;
+	margin-right: 5px;
+
+}
+.navbar-header .a3{
+	font-size: 22px;
+	margin-left: 50px;
+	margin-right: 05px;
+}
+.navbar-header .a4{
+	font-size: 22px;
+	margin-left: 50px;
+	margin-right: 5px;
+}
+.navbar-header a{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 20px;
+}
+
+.msge{
+	height: 30px;
+	width: 100%;
+	font-size: 14px;
+	font-family: serif;
+	background-color: #2F4F4F ;
+	border-radius: 10px;
+	margin-top: 90px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+/*End barre de navigation*/
+
+/*Titre prix*/
+.col-md-6 .Nom{
+	text-align: center;
+}
+
+/*end titre prix*/
+.container{
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+/*Les cercles*/
+.container .row{
+	margin-left: 15px;
+	text-align: center;
+}
+
+ .col-md-6{
+
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background-color:#00FFFF ;
+	display: inline-block;
+	margin-bottom: 5%;
+	
+}
+.col-md-3{
+	margin-top: 50px;
+	margin-bottom: 15%;
+}
+
+.col-md-3 button{
+	font-size: 15px;
+	float: right;
+	height: 70px;
+	width: 7%;
+	background-color: ;
+	opacity: ;
+
+}
+button{
+	
+	width:40% ;
+	border-radius: 07px;
+}
+/*Les fruits*/
+.container .row .un1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 2%;
+	margin-bottom: 5%;
+
+}
+
+.container .row .deux1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+
+.container .row .trois1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+.container .row .quatre1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+.container .row .cinq1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+.container .row .six1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+.container .row .sept1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+.container .row .huit1 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+}
+/*End fruits*/
+/*Les legumes*/
+.container .row .un2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .deux2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .trois2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .quatre2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .cinq2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .six2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .sept2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .huit2 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+
+/*End legumes*/
+
+/*Boisson*/
+.container .row .un3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .deux3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .trois3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .quatre3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .cinq3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .six3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .sept3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .huit3 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+/*End Boisson*/
+/*Alcool*/
+.container .row .un4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .deux4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .trois4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .quatre4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .cinq4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .six4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .sept4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .huit4 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+
+/*End Alcool*/
+
+/*Plat*/
+.container .row .un5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .deux5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .trois5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .quatre5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .cinq5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .six5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .sept5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+.container .row .huit5 img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    margin-right: 5%;
+	margin-bottom: 5%;
+
+}
+
+
+/*end plat*/
+
+
+/*Footer*/
+
+/*End Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
